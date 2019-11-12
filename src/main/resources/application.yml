@@ -1,0 +1,4 @@
+application:
+  version: '@project.version@'
+  locale-name: ru_RU
+  question-base-filename: questions-and-answers
