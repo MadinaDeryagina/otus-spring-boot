@@ -1,6 +1,5 @@
 package otus.deryagina.spring.question.localizer;
 
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.MessageSource;
 import org.springframework.stereotype.Service;
 import otus.deryagina.spring.question.configuration.ApplicationSettings;

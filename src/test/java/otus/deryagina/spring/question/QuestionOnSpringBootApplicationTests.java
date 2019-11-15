@@ -3,6 +3,7 @@ package otus.deryagina.spring.question;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.context.annotation.Configuration;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -15,6 +16,10 @@ import static org.junit.jupiter.api.Assertions.fail;
 @SpringBootTest
 class QuestionOnSpringBootApplicationTests {
 
+    @Configuration
+    static class QuestionOnSpringBootApplicationTestsConfiguration{
+
+    }
     @Test
     @DisplayName("Test i18n and l10n: all l10n have same keys in bundle")
     void allL10onsHaveSameKeys() {

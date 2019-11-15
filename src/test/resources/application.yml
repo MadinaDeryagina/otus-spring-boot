@@ -1,7 +1,7 @@
 application:
   version: '@project.version@'
   locale-name: ru_RU
-  question-base-filename: questions-and-answers
+  question-base-filename: test-questions-and-answers
 spring:
   shell:
     interactive:
